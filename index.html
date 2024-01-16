@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello! Yuvraj Here</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" /> -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e674bba739.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <header>
+        <a href="#home" class="logo">Y.R.<span>C</span></a>
+
+        <div class="menu nav-link" id="menu-icon" onclick="toggleNav()"><i class="fa-solid fa-bars"></i></div>
+
+        <ul class="navbar" id="navbarItimes">
+            <li><a href="#" class="active nav-link" id="check">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#about" class="nav-link">Skills</a></li>
+            <li><a href="#project" class="nav-link">Project</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="top-btn">
+            <a href="https://drive.google.com/file/d/1TEjmD4T3Otz2w5YVbwquQ2ySjLPaM-LK/view?usp=sharing" class="nav-link h-btn">Download CV</a>
+        </div>
+        <div>
+            <i onclick="checkButton()" class="fa-solid fa-circle-half-stroke dark-light"></i>
+        </div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-text animate__animated animate__slideInLeft">
+            <h4>Hi, There!</h4>
+            <h1>I'm <span>Yuvraj Chindarkar</span></h1>
+            <p class="nav-link">
+                “Make everything as simple as possible, but not simpler.”
+            </p>
+            <div class="social">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="https://github.com/yuvrajchindarkar"><i class="fa-brands fa-github"></i></i></a>
+                <a href="https://www.linkedin.com/in/yuvraj-chindarkar-2b4b771b5"><i
+                        class="fa-brands fa-linkedin"></i></i></a>
+            </div>
+        </div>
+        <div class="home-img animate__animated animate__slideInRight">
+            <img src="img/yuvi.png">
+        </div>
+    </section>
+
+    <section class="about animate__animated animate__slideInDown" id="about">
+        <div class="about-col-2">
+            <h1 class="sub-title">Abo<span>ut Me</span></h1>
+            <p>Web developer with a passion for creating innovative and visuallyappealing websites. Proficient in HTML, CSS, JavaScript, and modernframeworks. Skilled in both front-end and back-end development, witha commitment to staying updated on industry
+                trends.
+            </p>
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                <p class="tab-links" onclick="openTab('education')">Education</p>
+                <p class="tab-links" onclick="openTab('certification')">Certification</p>
+
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>Web Development</span><br>HTML CSS JS MERN Stack BOOTSTRAP</li>
+                    <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                    <li><span>App Development</span><br>Building Android</li>
+                </ul>
+            </div>
+
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>2023</span><br>BE CS Securing With 8.30 CGPA</li>
+                    <li><span>2019</span><br>HSC Securing With 67.69%</li>
+                    <li><span>2017</span><br>SSC Securing With 85.69%</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="certification">
+                <ul>
+                    <li><span>MERN Stack Development</span><br>by RAW Engineering Academy-2023</li>
+                </ul>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="project animate__animated animate__fadeInLeft" id="project">
+        <div class="p-container">
+            <h1 class="sub-title">My pr<span>ojects</span></h1>
+            <div class="work-list">
+                <div class="work">
+                    <a href="https://analog-digital-clock-sirfraj.netlify.app/"><img src="project/clock.png" alt=""></a>
+                    <div class="layer">
+                        <h2>Analog Clock</h2>
+                        <ul class="tech">
+                            <li class="tech-stack">HTML</li>
+                            <li class="tech-stack">CSS</li>
+                            <li class="tech-stack">JS</li>
+
+                        </ul>
+                        <a href="https://analog-digital-clock-sirfraj.netlify.app/" class="nav-link pbtn">Demo</a>
+                        <a href="https://github.com/yuvrajchindarkar/analogdigital-clock" class="nav-link pbtn">Code</a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <a href="https://tic-tac-toe-gameby8.netlify.app"><img src="project/TIC_TC_ToE.png" alt=""></a>
+                    <div class="layer">
+                        <h2>tic-tac-toe</h2>
+                        <ul class="tech">
+                            <li class="tech-stack">HTML5</li>
+                            <li class="tech-stack">CSS</li>
+                            <li class="tech-stack">JS</li>
+
+                        </ul>
+                        <a href="https://tic-tac-toe-gameby8.netlify.app" class="nav-link pbtn">Demo</a>
+                        <a href="#" class="nav-link pbtn">Code</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <a href="https://mycalculatoryc23.netlify.app"><img src="project/clasi.png" alt=""></a>
+                    <div class="layer">
+                        <h2>Calculator</h2>
+                        <ul class="tech">
+                            <li class="tech-stack">HTML</li>
+                            <li class="tech-stack">CSS</li>
+                            <li class="tech-stack">JS</li>
+                        </ul>
+                        <a href="https://mycalculatoryc23.netlify.app" class="nav-link pbtn">Demo</a>
+                        <a href="#" class="nav-link pbtn">Code</a>
+
+                    </div>
+                </div>
+                <div class="work">
+                    <a href="https://agecalculatorby23.netlify.app/"><img src="project/ageCalsi.png" alt=""></a>
+                    <div class="layer">
+                        <h2>Age Calculator</h2>
+                        <ul class="tech">
+                            <li class="tech-stack">HTML</li>
+                            <li class="tech-stack">CSS</li>
+                            <li class="tech-stack">JS</li>
+                        </ul>
+                        <a href="https://agecalculatorby23.netlify.app/" class="nav-link pbtn">Demo</a>
+                        <a href="#" class="nav-link pbtn">Code</a>
+
+                    </div>
+                </div>
+
+                <div class="work">
+                    <a href="https://stopwatchby23.netlify.app/"><img src="project/stopwatch.png" alt="stopwatch"></a>
+                    <div class="layer">
+                        <h2>Stopwatch</h2>
+                        <ul class="tech">
+                            <li class="tech-stack">HTML</li>
+                            <li class="tech-stack">CSS</li>
+                            <li class="tech-stack">JS</li>
+                        </ul>
+                        <a href="https://stopwatchby23.netlify.app/" class="nav-link pbtn">Demo</a>
+                        <a href="#" class="nav-link pbtn">Code</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <a href="https://voiceassistantnewswebapp.netlify.app"><img src="project/newapp.png" alt=""></a>
+                    <div class="layer">
+                        <h2>Voice Assistant</h2>
+                        <ul class="tech">
+                            <li class="tech-stack">REACT.JS</li>
+                            <li class="tech-stack">CSS</li>
+                        </ul>
+                        <a href="https://voiceassistantnewswebapp.netlify.app" class="nav-link pbtn">Demo</a>
+                        <a href="#" class="nav-link pbtn">Code</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <a href="https://weatherwebapp231.netlify.app/"><img src="project/weatherapp.png" alt=""></a>
+                    <div class="layer">
+                        <h2>Weatherapp</h2>
+                        <ul class="tech">
+                            <li class="tech-stack">ReactJS</li>
+                            <li class="tech-stack">CSS</li>
+                        </ul>
+                        <a href="https://weatherwebapp231.netlify.app/" class="nav-link pbtn">Demo</a>
+                        <a href="#" class="nav-link pbtn">Code</a>
+
+                    </div>
+                </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="c-row">
+            <div class="contact-left">
+                <h1 class="sub-title">Cont<span>act Me</span></h1>
+                <p><i class="fas fa-paper-plane"></i>yuvrajchindarkar90@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i> 1234567890</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter-square"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn3">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="copyright">
+            <p>copyright @YRC<i class="fas fa-heart"></i>2023</p>
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="scr.js"></script>
+
+</body>
+
+</html>
